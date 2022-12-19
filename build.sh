@@ -6,3 +6,4 @@ pipenv install
 
 python manage.py collectstatic --no-input
 python manage.py migrate
+python manage.py seed_db
