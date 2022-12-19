@@ -1,0 +1,43 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Store</title>
+    <link rel="stylesheet" href="{% static 'custom/styles.css' %}">
+</head>
+<body>
+    <header>
+        <div>Tarun Khubchandani</div>
+    </header>
+    <section class="main">
+        <div>
+            <p>Welcome</p>
+            <p>to my</p>
+            <p>Food Store API</p>
+        </div>
+    </section>
+    <footer>
+        <p>Links -:</p>
+        <div>
+            <div class="link link1">
+                <a href="/food_store/">&#x1F449 Go to Api Root</a>
+                <br>
+                <small><span>*</span> (Find all the api routes related to food store)</small>
+            </div>
+            <div class="link link1">
+                <a href="/auth/users/">&#x1F449 User Registration</a>
+                <br>
+                <small><span>*</span> (Register yourself to check your orders)</small>
+            </div>
+            <div class="link link1">
+                <a href="/auth/jwt/create/">&#x1F449 User Authentication</a>
+                <br>
+                <small><span>*</span> (Get the access tokens and verify yourself through request headers)</small>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

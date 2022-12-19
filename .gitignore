@@ -1,0 +1,4 @@
+*.pyc
+/media/
+/static/
+food_project/settings/dev.py

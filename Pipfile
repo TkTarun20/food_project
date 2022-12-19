@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+mysqlclient = "*"
+django-debug-toolbar = "*"
+djangorestframework = "*"
+drf-nested-routers = "*"
+django-filter = "*"
+djoser = "*"
+djangorestframework-simplejwt = "*"
+pillow = "*"
+whitenoise = "*"
+dj-database-url = "*"
+psycopg2 = "*"
+gunicorn = "*"
+
+[dev-packages]
+pytest = "*"
+pytest-django = "*"
+model-bakery = "*"
+
+[requires]
+python_version = "3.9"
